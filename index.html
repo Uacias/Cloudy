@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloudly</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div>
+      <img src="./img/img_cloud.png" alt="Cloud" class="image-cloud" />
+    </div>
+    <h1>CLOUDY</h1>
+    <h2>Check the weather</h2>
+    <div>
+      <img
+        src="./img/img_bg_city.png"
+        alt="toggle-background"
+        class="img_toggle_bg"
+        width="40px"
+        height="40px"
+      />
+    </div>
+
+    <div class="container">
+      <form action="" class="searchbar">
+        <input type="text" placeholder="London" class="input" />
+        <button type="submit" class="button">
+          <img src="./img/icon_search.png" alt="" />
+        </button>
+      </form>
+
+      <div class="container-data">
+        <p class="city">Weather in <span class="span-city"></span></p>
+        <p>Temperature: <span class="span-temperature"></span></p>
+        <p>Description: <span class="span-description"></span></p>
+        <p>Pressure: <span class="span-pressure"></span></p>
+        <p>Humidity: <span class="span-humidity"></span></p>
+        <p>Wind: <span class="span-wind"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
